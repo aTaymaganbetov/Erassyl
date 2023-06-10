@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erasyldiplomapp.TestP1Controller">
+    <children>
+        <AnchorPane prefHeight="80.0" prefWidth="900.0" style="-fx-background-color: #000000; -fx-border-color: #fafafa;">
+            <children>
+                <Text fill="WHITE" layoutX="213.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 кезең (объектілердің ақпараттық қауіпсіздігін бағалау)" textAlignment="CENTER" wrappingWidth="474.540771484375">
+                    <font>
+                        <Font name="System Bold" size="22.0" />
+                    </font>
+                </Text>
+            <Button layoutX="735.0" layoutY="20.0" mnemonicParsing="false" onAction="#instructionAction" prefHeight="40.0" prefWidth="150.0" style="-fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #fafafa;" text="Нұсқаулық">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            </children></AnchorPane>
+        <Button fx:id="nextButton" layoutX="326.0" layoutY="522.0" mnemonicParsing="false" onAction="#nextButtonAction" prefHeight="46.0" prefWidth="248.0" style="-fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #fafafa;" text="Келесі сұраққа көшу">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Button>
+        <Text layoutX="139.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ҚАУІПТЕР">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Text>
+        <Text layoutX="395.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ЖҮЙЕНІҢ ҚАУІПСІЗДІГІНІҢ">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="428.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="БАСТАПҚЫ ДЕҢГЕЙІ">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="673.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ҚАУІПТІ ІСКЕ АСЫРУ">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="688.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ЫҚТИМАЛДЫҒЫ">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="questionText1" layoutX="27.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Уақытша шешімді пайдаланып қорғалған файлдарға кіру қаупі" wrappingWidth="289.7265625">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text fx:id="questionText2" layoutX="24.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Бағдарламалық жасақтаманың осал нұсқаларын пайдалану қаупі" wrappingWidth="310.8160095214844">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text fx:id="questionText3" layoutX="24.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Белсенді және (немесе) пассивті виртуалды және (немесе) физикалық желілік жабдыққа рұқсатсыз қол жеткізу қаупі." wrappingWidth="370.5264892578125">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text fx:id="questionText4" layoutX="24.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Угроза несанкционированного удаления защищаемой информации" wrappingWidth="342.0160217285156">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <TextField fx:id="firstField1" alignment="CENTER" layoutX="461.0" layoutY="178.0" prefHeight="42.0" prefWidth="110.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="secondField1" alignment="CENTER" layoutX="461.0" layoutY="249.0" prefHeight="42.0" prefWidth="110.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="thirdField1" alignment="CENTER" layoutX="461.0" layoutY="324.0" prefHeight="42.0" prefWidth="110.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="fourthField1" alignment="CENTER" layoutX="461.0" layoutY="398.0" prefHeight="42.0" prefWidth="110.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </TextField>
+        <AnchorPane layoutX="24.0" layoutY="153.0" prefHeight="3.0" prefWidth="850.0" style="-fx-background-color: #000000;" />
+        <TextField fx:id="firstField2" alignment="CENTER" layoutX="708.0" layoutY="178.0" prefHeight="42.0" prefWidth="110.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="secondField2" alignment="CENTER" layoutX="708.0" layoutY="249.0" prefHeight="42.0" prefWidth="110.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="thirdField2" alignment="CENTER" layoutX="708.0" layoutY="324.0" prefHeight="42.0" prefWidth="110.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="fourthField2" alignment="CENTER" layoutX="708.0" layoutY="398.0" prefHeight="42.0" prefWidth="110.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </TextField>
+        <Button fx:id="clue2" layoutX="828.0" layoutY="184.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font></Button>
+        <Button fx:id="clue4" layoutX="828.0" layoutY="255.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="clue6" layoutX="828.0" layoutY="329.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="clue8" layoutX="828.0" layoutY="404.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="clue1" layoutX="581.0" layoutY="184.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="clue3" layoutX="581.0" layoutY="255.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="clue5" layoutX="581.0" layoutY="329.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="clue7" layoutX="581.0" layoutY="404.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <AnchorPane layoutX="783.0" layoutY="532.0" prefHeight="45.0" prefWidth="90.0" style="-fx-background-color: #000000; -fx-border-color: #ffc000; -fx-background-radius: 30; -fx-border-radius: 30;">
+            <children>
+                <Text fx:id="pageNum" fill="WHITE" layoutX="26.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1/2">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

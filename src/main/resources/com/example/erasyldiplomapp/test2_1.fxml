@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erasyldiplomapp.Test2_1Controller">
+    <children>
+        <AnchorPane prefHeight="80.0" prefWidth="900.0" style="-fx-background-color: #000000; -fx-border-color: #fafafa;">
+            <children>
+                <Text fill="WHITE" layoutX="215.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2 кезең (объектілерді маңызды деп жіктеу)">
+                    <font>
+                        <Font name="System Bold" size="22.0" />
+                    </font>
+                </Text>
+            <Text fill="WHITE" layoutX="229.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№ 1 кезең (зерттеу объектілерін таңдау)">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+            <Button layoutX="735.0" layoutY="19.0" mnemonicParsing="false" onAction="#instructionAction" prefHeight="40.0" prefWidth="150.0" style="-fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #fafafa;" text="Нұсқаулық">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            </children></AnchorPane>
+        <Button fx:id="nextButton" layoutX="375.0" layoutY="530.0" mnemonicParsing="false" onAction="#nextAction" prefHeight="46.0" prefWidth="150.0" style="-fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #fafafa;" text="Келесі">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Button>
+        <Text layoutX="243.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="СҰРАҚТАР">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Text>
+        <Text fx:id="questionText1" layoutX="27.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№1. Сізде объектіде ақпараттық жүйелер, технологиялық платформалар, аппараттық-бағдарламалық кешендер, серверлік үй-жайлар (деректерді өңдеу орталықтары), телекоммуникация желілері, сондай-ақ ақпараттық қауіпсіздікті және техникалық құралдардың үздіксіз жұмыс істеуін қамтамасыз ету жүйелері бар ма?" wrappingWidth="542.5265808105469">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text fx:id="questionText2" layoutX="27.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№2. Сіздің объектіңіз электрондық ақпараттық ресурстарды қалыптастыру және оларға қол жеткізуді қамтамасыз ету мақсатында технологиялық орта ретінде жұмыс істей ме?" wrappingWidth="542.5265808105468">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text fx:id="questionText3" layoutX="27.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№3. Егер сіздің объектіңіз қол жетімділігі шектеулі дербес деректерді және заңмен қорғалатын құпияны, Әлеуметтік және (немесе) техногендік сипаттағы төтенше жағдайды немесе қорғаныс, қауіпсіздік, халықаралық қатынастар үшін елеулі теріс салдарларды қамтитын өзге де мәліметтерді заңсыз жинауға және өңдеуге әкеп соқтыратын жұмыс істеуді бұзса немесе тоқтатса?" wrappingWidth="542.5265808105468">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <AnchorPane layoutX="25.0" layoutY="116.0" prefHeight="3.0" prefWidth="850.0" style="-fx-background-color: #000000;" />
+      <AnchorPane layoutX="597.0" layoutY="119.0" prefHeight="385.0" prefWidth="3.0" style="-fx-background-color: #000000;" />
+      <AnchorPane layoutX="25.0" layoutY="503.0" prefHeight="3.0" prefWidth="850.0" style="-fx-background-color: #000000;" />
+      <RadioButton fx:id="firstYes" layoutX="637.0" layoutY="165.0" mnemonicParsing="false" text="ИӘ">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="firstNo" layoutX="749.0" layoutY="165.0" mnemonicParsing="false" text="ЖОҚ">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="secondYes" layoutX="637.0" layoutY="290.0" mnemonicParsing="false" text="ИӘ">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="secondNo" layoutX="749.0" layoutY="290.0" mnemonicParsing="false" text="ЖОҚ">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="thirdYes" layoutX="637.0" layoutY="397.0" mnemonicParsing="false" text="ИӘ">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="thirdNo" layoutX="749.0" layoutY="397.0" mnemonicParsing="false" text="ЖОҚ">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </RadioButton>
+    </children>
+</AnchorPane>

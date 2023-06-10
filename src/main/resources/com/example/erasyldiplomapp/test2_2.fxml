@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erasyldiplomapp.Test2_2Controller">
+    <children>
+        <AnchorPane prefHeight="85.0" prefWidth="900.0" style="-fx-background-color: #000000; -fx-border-color: #fafafa;">
+         <children>
+            <Text fill="WHITE" layoutX="237.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2 кезең (объектілерді маңызды деп жіктеу)">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="241.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№2 кезең (объектінің маңыздылығын негізгі көрсеткіштер бойынша бағалау)" textAlignment="CENTER" wrappingWidth="416.61767578125">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Button layoutX="735.0" layoutY="19.0" mnemonicParsing="false" onAction="#instructionAction" prefHeight="40.0" prefWidth="150.0" style="-fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #fafafa;" text="Нұсқаулық">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+        <Button fx:id="nextButton" layoutX="325.0" layoutY="543.0" mnemonicParsing="false" onAction="#nextButtonAction" prefHeight="40.0" prefWidth="248.0" style="-fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #fafafa;" text="Келесі кезеңге көшу">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Button>
+        <Text layoutX="120.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ҚАУІПТЕР">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="419.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIN">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="747.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AVG">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="questionText1" layoutX="26.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Жылдық өнім шығарудың өзіндік құны:" wrappingWidth="322.52655029296875">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text fx:id="questionText2" layoutX="26.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Қызметкерлердің жалпы саны:" wrappingWidth="322.52655029296875">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text fx:id="questionText3" layoutX="26.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Елде өндірілетін сол типтегі өнімдегі объектінің негізгі өнімінің үлесі:" wrappingWidth="322.52655029296875">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text fx:id="questionText4" layoutX="25.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Мемлекеттің беделіне, оның ішінде халықаралық аренада нұқсан келтіру" wrappingWidth="322.52655029296875">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <TextField fx:id="firstField1" alignment="CENTER" layoutX="386.0" layoutY="139.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="secondField1" alignment="CENTER" layoutX="385.0" layoutY="202.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="thirdField1" alignment="CENTER" layoutX="385.0" layoutY="265.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="fourthField1" alignment="CENTER" layoutX="385.0" layoutY="330.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </TextField>
+        <AnchorPane layoutX="25.0" layoutY="124.0" prefHeight="3.0" prefWidth="850.0" style="-fx-background-color: #000000;" />
+        <Button fx:id="clue1" layoutX="845.0" layoutY="144.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="clue2" layoutX="845.0" layoutY="205.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="clue3" layoutX="845.0" layoutY="269.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="clue4" layoutX="845.0" layoutY="332.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+      <Text fx:id="questionText5" layoutX="25.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Нысанда апат болған жағдайда зардап шегуі мүмкін адамдардың саны" wrappingWidth="322.52655029296875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="questionText6" layoutX="25.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Негізгі құралдардың баланстық құны" wrappingWidth="322.52655029296875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="582.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAX">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="359.0" layoutY="126.0" prefHeight="397.0" prefWidth="3.0" style="-fx-background-color: #000000;" />
+      <AnchorPane layoutX="24.0" layoutY="524.0" prefHeight="3.0" prefWidth="850.0" style="-fx-background-color: #000000;" />
+      <TextField fx:id="fifthField1" alignment="CENTER" layoutX="385.0" layoutY="398.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="sixthField1" alignment="CENTER" layoutX="385.0" layoutY="464.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="firstField2" alignment="CENTER" layoutX="552.0" layoutY="139.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="secondField2" alignment="CENTER" layoutX="551.0" layoutY="202.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="thirdField2" alignment="CENTER" layoutX="551.0" layoutY="265.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fourthField2" alignment="CENTER" layoutX="551.0" layoutY="330.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fifthField2" alignment="CENTER" layoutX="551.0" layoutY="398.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="sixthField2" alignment="CENTER" layoutX="551.0" layoutY="464.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="firstField3" alignment="CENTER" layoutX="718.0" layoutY="139.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="secondField3" alignment="CENTER" layoutX="717.0" layoutY="202.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="thirdField3" alignment="CENTER" layoutX="717.0" layoutY="265.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fourthField3" alignment="CENTER" layoutX="717.0" layoutY="330.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fifthField3" alignment="CENTER" layoutX="717.0" layoutY="398.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="sixthField3" alignment="CENTER" layoutX="717.0" layoutY="464.0" prefHeight="38.0" prefWidth="100.0" promptText="0" style="-fx-background-color: #fafafa; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <Button fx:id="clue5" layoutX="845.0" layoutY="400.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="clue6" layoutX="845.0" layoutY="467.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #ffc000;" text="?" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

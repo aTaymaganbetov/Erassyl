@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erasyldiplomapp.Result2_1Controller">
+    <children>
+        <AnchorPane prefHeight="80.0" prefWidth="900.0" style="-fx-background-color: #000000; -fx-border-color: #fafafa;">
+            <children>
+                <Text fill="WHITE" layoutX="389.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="НӘТИЖЕ">
+                    <font>
+                        <Font name="System Bold" size="35.0" />
+                    </font>
+                </Text>
+            </children></AnchorPane>
+        <Button fx:id="mainButton" layoutX="310.0" layoutY="520.0" mnemonicParsing="false" onAction="#mainButtonAction" prefHeight="46.0" prefWidth="280.0" style="-fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #fafafa;" text="Келесі кезеңге өту">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Button>
+        <Text fx:id="titleResult" layoutX="28.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SomeText" textAlignment="CENTER" wrappingWidth="843.6160278320311">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text layoutX="27.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <AnchorPane layoutX="25.0" layoutY="266.0" prefHeight="3.0" prefWidth="850.0" style="-fx-background-color: #000000;" />
+      <AnchorPane layoutX="25.0" layoutY="125.0" prefHeight="3.0" prefWidth="850.0" style="-fx-background-color: #000000;" />
+    </children>
+</AnchorPane>

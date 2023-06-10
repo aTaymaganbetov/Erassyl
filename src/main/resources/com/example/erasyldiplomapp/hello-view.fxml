@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erasyldiplomapp.HelloController">
+    <children>
+        <Button layoutX="87.0" layoutY="275.0" mnemonicParsing="false" onAction="#firstMethod" prefHeight="50.0" prefWidth="725.0" style="-fx-background-color: #000000; -fx-border-color: #fafafa; -fx-border-radius: 15; -fx-background-radius: 15;" text="1 кезең" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="25.0" />
+            </font>
+        </Button>
+        <Button fx:id="closeButton" layoutX="300.0" layoutY="498.0" mnemonicParsing="false" onAction="#closeWindowAction" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #cccaca; -fx-border-color: #000000; -fx-border-radius: 15; -fx-background-radius: 15;" text="Шығу">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Button>
+        <Accordion layoutX="50.0" layoutY="124.0" prefWidth="800.0" />
+        <AnchorPane prefHeight="80.0" prefWidth="900.0" style="-fx-background-color: #000000; -fx-border-color: #fafafa;">
+         <children>
+              <Label layoutX="324.0" layoutY="3.0" text="by Erassyl" textFill="WHITE">
+                  <font>
+                      <Font name="Colonna MT" size="60.0" />
+                  </font>
+              </Label>
+         </children></AnchorPane>
+        <Button layoutX="87.0" layoutY="357.0" mnemonicParsing="false" onAction="#secondMethod" prefHeight="50.0" prefWidth="725.0" style="-fx-background-color: #000000; -fx-border-color: #fafafa; -fx-border-radius: 15; -fx-background-radius: 15;" text="2 кезең" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="25.0" />
+            </font>
+        </Button>
+        <Text layoutX="92.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Объектілердің ақпараттық қауіпсіздігін бағалау және оларды аса маңызды деп жіктеуге арналған Бағдарламаға  қош келдіңіз!" textAlignment="CENTER" wrappingWidth="715.249267578125">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
