@@ -107,7 +107,7 @@ public class ResultFirstDetailController extends WindowFunctionality implements 
     @FXML
     public void exportAction() throws FileNotFoundException {
 
-        try(BufferedWriter bw = new BufferedWriter(new FileWriter("D:\\export_result.txt")))
+        try(BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Admin\\Desktop\\export_result.txt")))
         {
             bw.write(text.toString());
             showAlert(Alert.AlertType.INFORMATION, "Деректер сәтті сақталды", "Жалғастыру үшін OK батырмасын басыңыз", "");

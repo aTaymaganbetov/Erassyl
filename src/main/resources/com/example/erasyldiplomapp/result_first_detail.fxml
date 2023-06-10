@@ -13,7 +13,7 @@
         <Accordion layoutX="50.0" layoutY="124.0" prefWidth="800.0" />
         <AnchorPane prefHeight="80.0" prefWidth="900.0" style="-fx-background-color: #000000; -fx-border-color: #fafafa;">
             <children>
-                <Text fill="WHITE" layoutX="373.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Результат">
+                <Text fill="WHITE" layoutX="390.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Нәтиже">
                     <font>
                         <Font name="System Bold" size="32.0" />
                     </font>

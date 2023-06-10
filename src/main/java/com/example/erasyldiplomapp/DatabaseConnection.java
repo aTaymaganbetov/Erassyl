@@ -8,7 +8,7 @@ public class DatabaseConnection {
 
     private final String url = "jdbc:postgresql://localhost:5432/erassyl";
     private final String user = "postgres";
-    private final String password = "aidos2308";
+    private final String password = "era123";
     public Connection databaseLink;
     public Connection getConnection() {
         try {

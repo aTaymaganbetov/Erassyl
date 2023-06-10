@@ -170,17 +170,26 @@ public class TestP1Controller extends WindowFunctionality implements Initializab
         bulb.setFitWidth(20);
         bulb.setFitHeight(20);
 
-        Tooltip clueTooltip = new Tooltip("Здесь будет высвечиваться какая-нибудь\nподсказка");
+        Tooltip clueTooltip = new Tooltip("0- бастапқы қауіпсіздіктің жоғары дәрежесі үшін;\n" +
+                "5- бастапқы қауіпсіздіктің орташа дәрежесі үшін;\n" +
+                "10 – бастапқы қауіпсіздіктің төмен дәрежесі үшін.");
         clueTooltip.setTextAlignment(TextAlignment.JUSTIFY);
         clueTooltip.setGraphic(bulb);
 
+        Tooltip clueTooltip2 = new Tooltip("0 - екіталай\n" +
+                "2 - төмен ықтималдық\t\n" +
+                "5 - орташа ықтималдық\t\n" +
+                "10 - жоғары ықтималдық");
+        clueTooltip2.setTextAlignment(TextAlignment.JUSTIFY);
+        clueTooltip2.setGraphic(bulb);
+
         clue1.setTooltip(clueTooltip);
-        clue2.setTooltip(clueTooltip);
+        clue2.setTooltip(clueTooltip2);
         clue3.setTooltip(clueTooltip);
-        clue4.setTooltip(clueTooltip);
+        clue4.setTooltip(clueTooltip2);
         clue5.setTooltip(clueTooltip);
-        clue6.setTooltip(clueTooltip);
+        clue6.setTooltip(clueTooltip2);
         clue7.setTooltip(clueTooltip);
-        clue8.setTooltip(clueTooltip);
+        clue8.setTooltip(clueTooltip2);
     }
 }

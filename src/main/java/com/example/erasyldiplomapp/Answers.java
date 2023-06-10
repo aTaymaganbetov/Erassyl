@@ -21,6 +21,6 @@ public class Answers {
 
     public List<String> recommendList = new ArrayList<>();
 
-    String city = "Karaganda";
-    String org = "KSTU";
+    public String city = "Karaganda";
+    public String org = "KSTU";
 }

@@ -41,12 +41,12 @@
                 <Font name="System Bold" size="18.0" />
             </font>
         </Text>
-        <Text layoutX="747.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AVG">
+        <Text layoutX="753.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X_i">
             <font>
                 <Font name="System Bold" size="18.0" />
             </font>
         </Text>
-        <Text fx:id="questionText1" layoutX="26.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Жылдық өнім шығарудың өзіндік құны:" wrappingWidth="322.52655029296875">
+        <Text fx:id="questionText1" layoutX="26.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тауарлық өнімді жылдық шығарудың өзіндік құны" wrappingWidth="322.52655029296875">
             <font>
                 <Font size="18.0" />
             </font>
@@ -56,7 +56,7 @@
                 <Font size="20.0" />
             </font>
         </Text>
-        <Text fx:id="questionText2" layoutX="26.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Қызметкерлердің жалпы саны:" wrappingWidth="322.52655029296875">
+        <Text fx:id="questionText2" layoutX="26.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Персоналдың жалпы саны" wrappingWidth="322.52655029296875">
             <font>
                 <Font size="18.0" />
             </font>
@@ -66,7 +66,7 @@
                 <Font size="20.0" />
             </font>
         </Text>
-        <Text fx:id="questionText3" layoutX="26.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Елде өндірілетін сол типтегі өнімдегі объектінің негізгі өнімінің үлесі:" wrappingWidth="322.52655029296875">
+        <Text fx:id="questionText3" layoutX="26.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Заң мен тәртіпті жаппай бұзуы (соңғы 12 ай)" wrappingWidth="322.52655029296875">
             <font>
                 <Font size="18.0" />
             </font>
@@ -76,7 +76,7 @@
                 <Font size="20.0" />
             </font>
         </Text>
-        <Text fx:id="questionText4" layoutX="25.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Мемлекеттің беделіне, оның ішінде халықаралық аренада нұқсан келтіру" wrappingWidth="322.52655029296875">
+        <Text fx:id="questionText4" layoutX="25.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Объектідегі авария салдарынан өңірлік ауқымдағы авариялар мен апаттар (соңғы 12 ай)" wrappingWidth="322.52655029296875">
             <font>
                 <Font size="18.0" />
             </font>
@@ -127,12 +127,12 @@
                 <Font name="System Bold" size="15.0" />
             </font>
         </Button>
-      <Text fx:id="questionText5" layoutX="25.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Нысанда апат болған жағдайда зардап шегуі мүмкін адамдардың саны" wrappingWidth="322.52655029296875">
+      <Text fx:id="questionText5" layoutX="25.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Қалалар мен елді мекендердің тіршілікті қамтамасыз ету жүйелерін бұзу (соңғы 12 ай)" wrappingWidth="322.52655029296875">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text fx:id="questionText6" layoutX="25.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Негізгі құралдардың баланстық құны" wrappingWidth="322.52655029296875">
+      <Text fx:id="questionText6" layoutX="25.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Объектіде авария болған жағдайда ластану аумағы (соңғы 12 ай)" wrappingWidth="322.52655029296875">
          <font>
             <Font size="18.0" />
          </font>

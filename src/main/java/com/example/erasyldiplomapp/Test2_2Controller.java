@@ -267,7 +267,8 @@ public class Test2_2Controller extends WindowFunctionality implements Initializa
         bulb.setFitWidth(20);
         bulb.setFitHeight(20);
 
-        Tooltip clueTooltip = new Tooltip("Здесь будет высвечиваться какая-нибудь\nподсказка");
+        Tooltip clueTooltip = new Tooltip("X_i - көрсеткіштердің нақты мәні;\n" +
+                "Min және Max - тиісінше индикатордың ең төменгі және ең жоғары мәні");
         clueTooltip.setTextAlignment(TextAlignment.JUSTIFY);
         clueTooltip.setGraphic(bulb);
 

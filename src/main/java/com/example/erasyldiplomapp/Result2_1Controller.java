@@ -54,7 +54,7 @@ public class Result2_1Controller extends WindowFunctionality implements Initiali
             titleResult.setText("Құттықтаймыз! Сіз келесі кезеңге өттіңіз.");
         } else {
             mainButton.setText("Басты мәзір");
-            titleResult.setText("Өкінішке орай сіз келесі кезеңге өте алмадыңыз.");
+            titleResult.setText("Сіз келесі кезеңге өте алмадыңыз.");
         }
     }
 }

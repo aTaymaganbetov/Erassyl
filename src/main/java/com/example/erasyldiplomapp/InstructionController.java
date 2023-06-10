@@ -43,6 +43,6 @@ public class InstructionController extends WindowFunctionality implements Initia
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         webEngine = webView.getEngine();
-        webEngine.load("https://docs.google.com/document/d/10pU3ONxgl5w5GHqgzHiSCW1yBlhuuxY2aWLjJn4vHc8/edit");
+        webEngine.load("https://adilet.zan.kz/kaz/docs/P1600000529#z0");
     }
 }

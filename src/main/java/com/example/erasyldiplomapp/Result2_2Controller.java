@@ -66,7 +66,7 @@ public class Result2_2Controller extends WindowFunctionality implements Initiali
             text = "Сіз келесі кезеңге өттіңіз";
         } else {
             mainButton.setText("Нәтижелерді көру");
-            text = "Өкінішке орай сіз келесі кезеңге өте алмадыңыз";
+            text = "Объектіні маңызы бар ақпараттық инфрақұрылымға жатқызуды ерте талдау";
         }
         resultText.setText(text);
     }
