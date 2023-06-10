@@ -69,7 +69,7 @@
             <Font size="14.0" />
          </font>
       </Text>
-      <Button fx:id="clear2" layoutX="580.0" layoutY="237.0" mnemonicParsing="false" onAction="#clearAction" prefHeight="46.0" prefWidth="46.0" style="-fx-border-color: #000000; -fx-background-radius: 50; -fx-border-radius: 50;" text="жою">
+      <Button fx:id="clear2" layoutX="580.0" layoutY="237.0" mnemonicParsing="false" onAction="#clearAction2" prefHeight="46.0" prefWidth="46.0" style="-fx-border-color: #000000; -fx-background-radius: 50; -fx-border-radius: 50;" text="жою">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>

@@ -39,7 +39,12 @@ public class LoginController extends WindowFunctionality implements Initializabl
 
     @FXML
     void clearAction() {
+        cityField.setText("");
+    }
 
+    @FXML
+    void clearAction2() {
+        orgField.setText("");
     }
 
     @FXML
