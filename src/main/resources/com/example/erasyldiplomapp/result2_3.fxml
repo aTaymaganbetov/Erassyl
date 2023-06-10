@@ -15,7 +15,7 @@
                     </font>
                 </Text>
             </children></AnchorPane>
-        <Button fx:id="mainButton" layoutX="324.0" layoutY="529.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="46.0" prefWidth="248.0" style="-fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #fafafa;" text="Басты бетке өту">
+        <Button fx:id="mainButton" layoutX="34.0" layoutY="538.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="46.0" prefWidth="226.0" style="-fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #fafafa;" text="Басты бетке өту">
             <font>
                 <Font name="System Bold" size="20.0" />
             </font>
@@ -52,5 +52,10 @@
         </Text>
         <AnchorPane layoutX="25.0" layoutY="331.0" prefHeight="3.0" prefWidth="850.0" style="-fx-background-color: #000000;" />
         <AnchorPane layoutX="25.0" layoutY="118.0" prefHeight="3.0" prefWidth="850.0" style="-fx-background-color: #000000;" />
+      <Button layoutX="324.0" layoutY="368.0" mnemonicParsing="false" onAction="#resultsAction" prefHeight="46.0" prefWidth="248.0" style="-fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #fafafa;" text="Нәтижелерді көру">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
     </children>
 </AnchorPane>
